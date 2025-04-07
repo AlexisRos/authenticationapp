@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'authapp/dashboard.css' %}">
+</head>
+<body>
+    <h1 style="display: block; text-align: center;">¡Bienvenido, {{ user.email }}!</h1> <br>
+    <p>Has iniciado sesión exitosamente.</p>
+</body>
+</html>
